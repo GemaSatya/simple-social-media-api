@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/GemaSatya/models"
+	"github.com/GemaSatya/simple-social-media-api/models"
 )
 
 func RegisterUser(w http.ResponseWriter, r *http.Request) {

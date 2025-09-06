@@ -3,7 +3,7 @@ package models
 import (
 	"fmt"
 
-	"github.com/GemaSatya/env"
+	"github.com/GemaSatya/simple-social-media-api/env"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

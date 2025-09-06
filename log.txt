@@ -143,3 +143,8 @@
 | Method: GET| URL: /users/posts/2| Time: 2025-09-06T16:09:55+07:00
 | Method: POST| URL: /logout| Time: 2025-09-06T16:10:01+07:00
 | Method: GET| URL: /users/profile| Time: 2025-09-06T16:10:06+07:00
+| Method: POST| URL: /login| Time: 2025-09-06T16:27:56+07:00
+| Method: GET| URL: /users/profile| Time: 2025-09-06T16:27:59+07:00
+| Method: POST| URL: /logout| Time: 2025-09-06T16:28:04+07:00
+| Method: POST| URL: /login| Time: 2025-09-06T23:09:02+07:00
+| Method: POST| URL: /logout| Time: 2025-09-06T23:09:31+07:00

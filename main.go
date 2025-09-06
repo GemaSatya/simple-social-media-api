@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/GemaSatya/auth"
-	"github.com/GemaSatya/models"
-	"github.com/GemaSatya/utils"
+	"github.com/GemaSatya/simple-social-media-api/auth"
+	"github.com/GemaSatya/simple-social-media-api/models"
+	"github.com/GemaSatya/simple-social-media-api/utils"
 
 	"github.com/joho/godotenv"
 )

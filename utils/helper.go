@@ -5,6 +5,8 @@ import (
 	"net/http"
 	"os"
 	"time"
+
+	"github.com/GemaSatya/simple-social-media-api/env"
 )
 
 func LoggingMiddleware(next http.HandlerFunc) http.HandlerFunc {
@@ -13,7 +15,7 @@ func LoggingMiddleware(next http.HandlerFunc) http.HandlerFunc {
 		fmt.Printf("%s, %s, %v\n", r.Method, r.URL, time.Now())
 		currentTime := time.Now().Format(time.RFC3339)
 		stringLog := "| Method: " + r.Method + "| URL: " + r.URL.String() + "| Time: " + currentTime + "\n"
-		file, err := os.OpenFile("D:/Coding/golang/gorm-playground/log.txt", os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0644)
+		file, err := os.OpenFile(env.ReadEnv("LOG_PATH"), os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0644)
 		if err != nil {
 			panic(err)
 		}

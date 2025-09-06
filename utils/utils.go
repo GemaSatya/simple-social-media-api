@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/GemaSatya/models"
+	"github.com/GemaSatya/simple-social-media-api/models"
 )
 
 func GetAllUserPosts(w http.ResponseWriter, r *http.Request) {

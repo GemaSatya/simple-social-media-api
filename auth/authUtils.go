@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/GemaSatya/models"
+	"github.com/GemaSatya/simple-social-media-api/models"
 
 	"golang.org/x/crypto/bcrypt"
 )
